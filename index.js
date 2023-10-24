@@ -17,5 +17,7 @@ console.log(y);
 console.log(z);
 
 //Create a dialogue box displaying the vault codes.
-//document.getElementById("button").onclick = function(onclick){
-    alert("x=6,y=8,z=7");
+let button = document.getElementById("clickButton");
+button.addEventListener('click',function(){
+    alert ('The code is' + vaultCombinaiton)
+});
